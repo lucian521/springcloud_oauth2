@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-service" />
+        <module name="catalog-service" />
+        <module name="discovery-service" />
+        <module name="edge-service" />
+        <module name="index-service" />
+        <module name="user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-service" target="1.8" />
+      <module name="catalog-service" target="1.8" />
+      <module name="discovery-service" target="1.8" />
+      <module name="edge-service" target="1.8" />
+      <module name="index-service" target="1.8" />
+      <module name="index-service (1)" target="1.8" />
+      <module name="index-service (2)" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="user-service (1)" target="1.8" />
+      <module name="user-service (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

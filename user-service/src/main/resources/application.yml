@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: user-service
+  redis:
+    host: redis.lucian.nat123.net
+    port: 6379
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+    # disable open EntityManager in View
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://mysql.lucian.nat123.net:13306/time_store_user?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8181
+  context-path: /auth
+security:
+  user:
+    password: password
+  enable-csrf: false
+  ignored: /assets/**
+logging.level.org.springframework.security: DEBUG
